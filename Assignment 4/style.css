@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: IndieFlower-Regular;
+    src: url(Fonts/IndieFlower-Regular.ttf);
+}
+
+@font-face {
     font-family: Acme-Regular;
     src: url(Fonts/Acme-Regular.ttf);
 }
@@ -82,6 +87,56 @@ body {
 }
 
 /* Welcome Section */
+
+/* Our Specialities */
+
+#parallax-image-special {
+    background-image: url(Images/special-image.jpg);
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#parallax-image-special h1 {
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+    color: white;
+    font-weight: 200;
+    font-size: 50px;
+    font-family: Caveat-Bold;
+    letter-spacing: 4px;
+}
+
+#parallax-image-special h4 {
+    font-family: Caveat-Bold;
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: 2px 2px rgb(218, 108, 108);
+    margin-bottom: 20px;
+}
+
+.specialities-image {
+    width: 300px !important;
+    height: 200px !important;
+    border-radius: 20px;
+}
+
+.special-names {
+    font-family: IndieFlower-Regular;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px rgb(218, 108, 108);
+}
+
+/* Our Specialities */
 
 /* Reservation */
 
@@ -169,7 +224,7 @@ body {
 
 #parallax-image-menu1 {
     background-image: url(Images/icon1.png);
-    height: 250px;
+    height: 150px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
